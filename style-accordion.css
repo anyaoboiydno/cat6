@@ -1,0 +1,74 @@
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.btn-add { background-color: #6a41c2; }
+.btn-add:hover { background-color: #5533a0; }
+
+.btn-save { background-color: #28a745; }
+.btn-save:hover { background-color: #218838; }
+
+.item-preview {
+    background: #f4f4f4;
+    border-left: 4px solid #6a41c2;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: white;
+}
+.accordion-header {
+    background-color: #e0f0ff;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+.accordion-header:hover {
+    background-color: #cde0f5;
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    transition: max-height 0.3s ease-out, padding 0.3s ease;
+    border-top: 1px solid transparent;
+}
+.accordion-content.active {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+.icon {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6a41c2;
+}
